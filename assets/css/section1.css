@@ -24,3 +24,16 @@
 .bg-navy{
     background: var(--bg-navy);
 }
+.text-navy{
+    color: var(--bg-navy);
+}
+
+.text-xl{
+    font-size: 4rem;
+}
+
+.btn-header{
+    position: relative;
+    top: -25px;
+    z-index: -1;
+}
