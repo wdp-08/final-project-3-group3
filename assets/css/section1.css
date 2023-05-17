@@ -33,7 +33,6 @@
 }
 
 .btn-header{
-    position: relative;
+    /* position: relative; */
     top: -25px;
-    z-index: -1;
 }
