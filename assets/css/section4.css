@@ -2,7 +2,28 @@
     font-family: 'Basic', sans-serif;
 }
 
-/* Nontact Newsletter */
+/* Contact & Newsletter */
+.newsletter{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    background-color: white;
+}
+  
+.newsletter h2{
+    font-weight: 400;
+    font-size: 30px;
+    color: #020E35;
+}
+  
+.newsletter h3{
+    font-weight: 400;
+    font-size: 90px;
+    color: #020E35;
+}
+
+.newsletter span{
+    color: #E73587;
+}
 
 
 /* Footer */
