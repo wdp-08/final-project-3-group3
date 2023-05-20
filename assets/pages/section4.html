@@ -23,12 +23,35 @@
         <section></section>
         
         
-        <section class="newsletter" id="newsletter">
+        <section id="newsletter" class="newsletter">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
                         <h2>Questions, Comments, Concerns?</h2>
                         <h3>We'd love to <span>hear</span> from you!</h3>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <form class="form-contact">
+                            <div class="mb-3">
+                                <label for="email" class="label-contact">Your Email Address</label>
+                                <input type="email" class="form-control form-control-lg rounded-0" placeholder="something@website.com" required>
+                            </div> 
+                            <br>
+                            <div class="mb-3">
+                                <label for="subject" style="font-weight: bold;" class="label-contact">Subject</label>
+                                <input type="text" class="form-control form-control-lg rounded-0" placeholder="Question about your article" required>
+                            </div> 
+                            <br>
+                            <div class="mb-3">
+                                <label for="message" class="label-contact">Message</label>
+                                <textarea class="form-control form-control-lg rounded-0" rows="5" style="resize: none" placeholder="Your message starts with..." required></textarea>
+                            </div> 
+                            <br>
+                            <div>
+                                <button type="submit" class="btn rounded-0 bg-gradient-purple-contact w-100">Send a Message</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -36,9 +59,8 @@
 
     </main>
 
-    <!-- Footer -->
     <footer>
-        <div class="container">
+        <div class="container ">
             <p class="my-2">2023 © All rights reserved by Group 3</p>
         </div>
     </footer>
