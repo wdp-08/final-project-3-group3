@@ -11,14 +11,15 @@
   
 .newsletter h2{
     font-weight: 400;
-    font-size: 30px;
+    font-size: 2vw;
     color: #020E35;
 }
   
 .newsletter h3{
     font-weight: 400;
-    font-size: 90px;
+    font-size: 6vw;
     color: #020E35;
+    margin-bottom: 40px;
 }
 
 .newsletter span{
@@ -52,7 +53,6 @@
     border: 0;
     color: var(--bg-white);
 }
-
 
 
 /* Footer */
