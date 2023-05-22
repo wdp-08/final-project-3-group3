@@ -1,0 +1,23 @@
+
+
+.btn-dark {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    width: 140px;
+    height: 40px;
+    left: 1047px;
+    top: 1669px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.card-group {
+    border: 0px;
+    border-radius: 0px;
+}
+
+.next {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 100%;
+}
