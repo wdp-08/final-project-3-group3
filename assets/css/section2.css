@@ -1,6 +1,6 @@
 hr {
     width: 7rem;
-    border: 2px solid #E73587;
+    border: 0.1rem solid #E73587;
     margin: auto;
 }
 
@@ -12,9 +12,19 @@ hr {
     border-radius: 0px;
 }
 
-.next {
-    width: 50px;
-    height: 50px;
-    border: 2px solid #FFFFFF;
+.slider {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 15rem;
+    margin-left: 0.2rem;
+    border: 0.1rem solid #FFFFFF;
     border-radius: 100%;
+    
+}
+p {
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
