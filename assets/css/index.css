@@ -50,13 +50,25 @@
 }
 
 .slider {
-    width: 2.5rem;
-    height: 2.5rem;
+    padding: 10px 17px;
+    width: fit-content;
+    height: fit-content;
     margin-top: 17rem;
     margin-left: 0;
-    border: 0.1rem solid #FFFFFF;
+    border: 1px solid #FFFFFF;
     border-radius: 100%;
     
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    display: block;
+    border-radius: 50%;
+    background-color:  #F0F3FA;
+    position: absolute;
+    top: -10px;
+    left: -250px;
 }
 
 /* akhir section 2 =================== */
@@ -84,22 +96,20 @@
     color: var(--bg-navy);
 }
 
-.text-xl {
-    font-size: 4rem;
-}
-
-
-.card {
-    width: 100%;
-    height: 25rem;
-}
-
-hr {
-    width: 5rem;
-    height: 0.3rem;
-    border: 0;
-    background-color: var(--bg-pink);
+span.line {
+    display: block;
+    width: 100px;
+    height: 1px;
+    border: 2px solid var(--bg-pink);
     margin: auto;
+}
+
+.height-100fw{
+    height: 90vh;
+}
+
+.height-50fw{
+    height: 50%;
 }
 
 
@@ -113,18 +123,11 @@ hr {
     background-color: white;
 }
   
-.newsletter h2{
-    font-weight: 400;
-    font-size: 2vw;
-    color: #020E35;
+.text-2xl{
+    color: var(--bg-navy);
+    font-size: 5rem;
 }
-  
-.newsletter h3{
-    font-weight: 400;
-    font-size: 6vw;
-    color: #020E35;
-    margin-bottom: 40px;
-}
+
 
 .newsletter span{
     color: #E73587;
@@ -154,7 +157,7 @@ hr {
 
 
 /* Footer */
-footer{
+/* footer{
     position: absolute;
     width: 100%;
     height: 25px;
@@ -167,5 +170,5 @@ footer p{
     font-size: 12px;
     line-height: 10px;
     color: #FFFFFF;
-}
+} */
 /* akhir section 4 =============== */
