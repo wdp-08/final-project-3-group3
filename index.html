@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="assets/css/font.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="shortcut icon" href="assets/images/shape-brand.svg"type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/shape-brand.svg" type="image/x-icon">
 </head>
 
 <body>
 
     <!-- section 1 -->
-    <header>
+    <header class="mb-5">
         <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
             <div class="container container-fluid py-2 position-relative">
                 <a class="navbar-brand brand position-absolute" href="#">
@@ -50,7 +50,8 @@
                                 <a class="nav-link me-4" href="#">Portofolio</a>
                             </li>
                             <li class="nav-item">
-                                <button class="btn bg-gradient-purple rounded-0" href="#">Contact Us</button>
+                                <a class="btn bg-gradient-purple rounded-0" href="https://github.com/wdp-08"
+                                    target="_blank">Contact Us</a>
                             </li>
 
                         </ul>
@@ -59,7 +60,7 @@
             </div>
         </nav>
 
-        <section id="banner" class="container">
+        <section id="banner" class="container mb-5 pt-5">
             <div class="row">
                 <div class="col-lg-5 mt-2 mt-md-5 pt-2 pt-md-5">
                     <h1 class="text-xl text-navy pt-5 z-3 position-relative">We Create Content that ranks</h1>
@@ -77,10 +78,11 @@
 
     <main>
         <!-- section 2 -->
-        <section class="container-sm text-center mt-5">
+        <section class="container-sm text-center my-5 py-5 position-relative">
+            <span class="circle d-none d-lg-block"></span>
             <h2>About Us</h2>
-            <div style="border-bottom: 0.1rem solid #E73587;   width: 6.5rem; margin: auto; "></div>
-            <p class="my-5 mx-auto" style="max-width: 40rem">
+            <span class="line"></span>
+            <p class="mt-4 mx-auto" style="max-width: 40rem">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                 ex ea commodo
@@ -88,63 +90,76 @@
             </p>
         </section>
 
-        <section class="text-center container-fluid my-5">
-            <h2>Our Valueable Services</h2>
-            <div style="border-bottom: 0.1rem solid #E73587;  width: 6.5rem; margin: auto; "></div>
-            <div class="card-group mx-3 my-4">
-                <div class="card border border-0 me-3" style="background-color: #FDF8E3;">
-                    <img src="/assets/images/app.png" class="card-img-top mx-4 my-2" alt="..."
-                        style="height: 16rem; width: 18rem;">
-                    <div class="card-body">
-                        <p class="card-title">App Development</p>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <button type="button" class="btn btn-dark border border-0 my-2"
-                            style="background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);">Read More</button>
+        <section class="text-center mt-5 bg-navy height-100fw">
+            <div class="bg-white text-navy height-50fw">
+                <h2>Our Valueable Services</h2>
+                <span class="line"></span>
+                <div class="mt-4 d-lg-flex d-block container">
+                    <div class="col">
+                        <div class="card border border-0 me-3 mb-5"
+                            style="background-color: #FDF8E3; height: fit-content;">
+                            <div class="d-flex justify-content-center">
+                                <img src="/assets/images/app.png" class="" alt="..." width="70%">
+                            </div>
+                            <div class="card-body d-flex justify-content-center flex-wrap">
+                                <p class="card-title d-block">App Development</p>
+                                <p class="card-text text-center" style="max-width: 85%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <button type="button" class="btn bg-gradient-purple rounded-0">Read More</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card border border-0 me-3" style="background-color: #F0F3FA;">
-                    <img src="/assets/images/Bitmap (1).png" class="card-img-top mx-4 my-2" alt="..."
-                        style="height: 16rem; width: 18rem;">
-                    <div class="card-body">
-                        <p class="card-title">Web Development</p>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <button type="button" class="btn btn-dark border border-0 my-2"
-                            style="background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);">Read More</button>
+                    <div class="col">
+                        <div class="card border border-0 me-3 mb-5"
+                            style="background-color: #F0F3FA; height: fit-content;">
+                            <div class="d-flex justify-content-center">
+                                <img src="/assets/images/Bitmap (1).png" class="" alt="..." width="71.5%">
+                            </div>
+                            <div class="card-body d-flex justify-content-center flex-wrap">
+                                <p class="card-title">Web Development</p>
+                                <p class="card-text" style="max-width: 85%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <button type="button" class="btn bg-gradient-purple rounded-0">Read More</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card border border-0 me-3" style="background-color: #FEEFF0;">
-                    <img src="/assets/images/Bitmap (2).png" class="card-img-top mx-4 my-2" alt="..."
-                        style="height: 16rem; width: 18rem;">
-                    <div class="card-body">
-                        <p class="card-title">UI UX Design</p>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <button type="button" class="btn btn-dark border border-0 my-2"
-                            style="background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);">Read More</button>
+                    <div class="col">
+                        <div class="card border border-0 me-3 mb-5"
+                            style="background-color: #FEEFF0; height: fit-content;">
+                            <div class="d-flex justify-content-center">
+                                <img src="/assets/images/Bitmap (2).png" class="" alt="..." width="74%">
+                            </div>
+                            <div class="card-body d-flex justify-content-center flex-wrap">
+                                <p class="card-title d-block w-100">UI UX Design</p>
+                                <p class="card-text d-block w-md-100" style="max-width: 85%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <button type="button" class="btn bg-gradient-purple rounded-0">Read More</button>
+                            </div>
+                        </div>
                     </div>
+
+                    <button class="btn slider bg-gradient-purple position-relative d-none d-lg-block" type="button"
+                        style="top: -80px;">
+                        <svg width="19" height="34" viewBox="0 0 19 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L17 17L2 32" stroke="white" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
                 </div>
-                <button class="btn btn-dark slider"
-                    style="background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);" type="button">
-                    >
-                </button>
             </div>
         </section>
         <!-- akhir section 2 -->
 
 
         <!-- section 3 -->
-        <div class="bg-navy">
+        <div class="bg-navy py-5">
             <section id="OurWork" class="container">
-                <h2 class="text-center">Our Work
-                </h2>
-                <hr>
-                <div class="row mt-5">
+                <h2 class="text-center">Our Work</h2>
+                <span class="line"></span>
+                <div class="row py-5">
                     <div class="col-lg-6 ">
-                        <div class="card bg-oren"> <img class="w-75 align-self-center" src="assets/images/hp.svg" alt=""> </div>
+                        <div class="card bg-oren rounded-0">
+                            <img class="w-75 align-self-center" src="assets/images/hp.svg" alt="">
+                        </div>
                     </div>
                     <div class="col-lg-6 ">
                         <h4> Brand Name</h4>
@@ -155,8 +170,8 @@
                             laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
-                <div class="row mt-5">
-                    <div class="col-lg-6 text-end">
+                <div class="row py-5">
+                    <div class="col-lg-6 text-end order-1 order-lg-0">
                         <h4>Brand Name</h4>
                         <h6 class="mt-2">iOS | ANDROID | WEB DEVELOPMENT</h6>
                         <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -164,36 +179,39 @@
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <div class="col-lg-6">
-                        <div class=" card bg-purple">
+                    <div class="col-lg-6 order-0 order-lg-1">
+                        <div class=" card bg-purple rounded-0 pt-5">
                             <img class="w-75 align-self-center mt-auto" src="assets/images/3-hp.svg" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="row mt-5">
+                <div class="row py-5">
                     <div class="col-lg-6 ">
-                        <div class="card bg-pink"> <img class="w-75 align-self-center m-auto" src="assets/images/laptop.svg"
-                                alt="">
+                        <div class="card bg-pink pt-5">
+                            <img class="align-self-center" width="100%" src="assets/images/laptop.svg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <h4>Brand Name</h4>
                         <h6 class="mt-2">iOS | ANDROID | WEB DEVELOPMENT</h6>
                         <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation
                             ullamcolaboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
-                <div class="row mt-5">
-                    <div class="col-lg-6 text-end">
+                <div class="row py-5">
+                    <div class="col-lg-6 text-end order-1 order-lg-0">
                         <h4>Brand Name</h4>
                         <h6 class="mt-2">iOS | ANDROID | WEB DEVELOPMENT</h6>
                         <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation
                             ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="card bg-biru"> <img class="mt-auto mb-auto" src="assets/images/laptop-tablet-hp.svg" alt="">
+                    <div class="col-lg-6 order-0 order-lg-1">
+                        <div class="card bg-biru py-5">
+                            <img class="" src="assets/images/laptop-tablet-hp.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -201,50 +219,46 @@
                     <button class="text-uppercase btn bg-gradient-purple rounded-0 align-self-center">SEE ALL WORK
                     </button>
                 </div>
-    
+
             </section>
         </div>
         <!-- akhir section 3 -->
 
         <!-- section 4 newsletter -->
-        
 
-    <header>
-        <nav></nav>
-    </header>
 
-    <main>
-        <section></section>
-        <section></section>
-        
-        
+
         <section id="newsletter" class="newsletter">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <h2>Questions, Comments, Concerns?</h2>
-                        <h3>We'd love to <span>hear</span> from you!</h3>
+                        <h3>Questions, Comments, Concerns?</h3>
+                        <h1 class="text-2xl">We'd love to <span>hear</span> from you!</h1>
                     </div>
 
                     <div class="col-lg-6">
                         <form class="form-contact">
                             <div class="mb-3">
                                 <label for="email" class="label-contact">Your Email Address</label>
-                                <input type="email" class="form-control form-control-lg rounded-0" placeholder="something@website.com" required>
-                            </div> 
+                                <input type="email" class="form-control form-control-lg rounded-0"
+                                    placeholder="something@website.com" required>
+                            </div>
                             <br>
                             <div class="mb-3">
                                 <label for="subject" style="font-weight: bold;" class="label-contact">Subject</label>
-                                <input type="text" class="form-control form-control-lg rounded-0" placeholder="Question about your article" required>
-                            </div> 
+                                <input type="text" class="form-control form-control-lg rounded-0"
+                                    placeholder="Question about your article" required>
+                            </div>
                             <br>
                             <div class="mb-3">
                                 <label for="message" class="label-contact">Message</label>
-                                <textarea class="form-control form-control-lg rounded-0" rows="5" style="resize: none" placeholder="Your message starts with..." required></textarea>
-                            </div> 
+                                <textarea class="form-control form-control-lg rounded-0" rows="5" style="resize: none"
+                                    placeholder="Your message starts with..." required></textarea>
+                            </div>
                             <br>
                             <div>
-                                <button type="submit" class="btn rounded-0 bg-gradient-purple-contact w-100">Send a Message</button>
+                                <button type="submit" class="btn rounded-0 bg-gradient-purple-contact w-100">Send a
+                                    Message</button>
                             </div>
                         </form>
                     </div>
@@ -252,17 +266,16 @@
             </div>
         </section>
         <!-- akhir section 4 newsletter -->
-    </main>
 
-    <footer>
-        <div class="container ">
-            <p class="my-2">2023 © All rights reserved by Group 3</p>
-        </div>
-    </footer>
+        <footer class="bg-navy py-2">
+            <div class="container ">
+                <span class="d-block text-white"><script>document.write(new Date().getFullYear())</script> &copy; All rights reserved by Group 3</span>
+            </div>
+        </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
