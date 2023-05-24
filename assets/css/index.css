@@ -1,3 +1,171 @@
-body{
-    background-color: #fff;
+*, body{
+    font-family: 'Basic', sans-serif;
 }
+
+:root {
+    --bg-purple: #8C32F0;
+    --bg-pink: #E73587;
+    --bg-white: #fff;
+    --bg-navy: #020E35;
+    --bg-oren: #F09532;
+    --bg-light-blue: #32D6F0;
+}
+
+/* section 1 ============ */
+.bg-gradient-purple{
+    background: linear-gradient(270deg, var(--bg-purple) 0%, var(--bg-pink) 100%);
+    border: 0;
+    color: var(--bg-white);
+}
+
+.bg-gradient-purple:hover{
+    background: linear-gradient(270deg, var(--bg-pink) 0%, var(--bg-purple) 100%);
+    border: 0;
+    color: var(--bg-white);
+}
+
+.bg-navy{
+    background: var(--bg-navy);
+    color: #fff;
+}
+.text-navy{
+    color: var(--bg-navy);
+}
+
+.text-xl{
+    font-size: 4rem;
+}
+
+.btn-header{
+    /* position: relative; */
+    top: -25px;
+}
+
+/* akhir section 1 ==================== */
+
+/* section 2 ====================== */
+
+.btn-dark {
+    border-radius: 0px;
+}
+
+.slider {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 17rem;
+    margin-left: 0;
+    border: 0.1rem solid #FFFFFF;
+    border-radius: 100%;
+    
+}
+
+/* akhir section 2 =================== */
+
+/* section 3 ================= */
+
+
+.bg-oren {
+    background: var(--bg-oren);
+}
+
+.bg-purple {
+    background: var(--bg-purple);
+}
+
+.bg-pink {
+    background: var(--bg-pink);
+}
+
+.bg-biru {
+    background: var(--bg-light-blue);
+}
+
+.text-navy {
+    color: var(--bg-navy);
+}
+
+.text-xl {
+    font-size: 4rem;
+}
+
+
+.card {
+    width: 100%;
+    height: 25rem;
+}
+
+hr {
+    width: 5rem;
+    height: 0.3rem;
+    border: 0;
+    background-color: var(--bg-pink);
+    margin: auto;
+}
+
+
+/* akhir section 3 ============= */
+
+/* section 4 =============== */
+/* Contact & Newsletter */
+.newsletter{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    background-color: white;
+}
+  
+.newsletter h2{
+    font-weight: 400;
+    font-size: 2vw;
+    color: #020E35;
+}
+  
+.newsletter h3{
+    font-weight: 400;
+    font-size: 6vw;
+    color: #020E35;
+    margin-bottom: 40px;
+}
+
+.newsletter span{
+    color: #E73587;
+}
+
+.newsletter .label-contact {
+    font-size: 17px;
+    font-weight: 400;
+    color: #2c3241;
+}
+
+
+.bg-gradient-purple-contact{
+    height: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    background: linear-gradient(270deg, var(--bg-purple) 0%, var(--bg-pink) 100%);
+    border: 0;
+    color: var(--bg-white);
+}
+
+.bg-gradient-purple-contact:hover{
+    background: linear-gradient(270deg, var(--bg-pink) 0%, var(--bg-purple) 100%);
+    border: 0;
+    color: var(--bg-white);
+}
+
+
+/* Footer */
+footer{
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    left: 0px;
+    margin-top: 40px;
+    background: #020E35;
+}
+
+footer p{
+    font-size: 12px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+/* akhir section 4 =============== */
