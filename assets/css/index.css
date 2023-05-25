@@ -55,9 +55,13 @@
     height: fit-content;
     margin-top: 17rem;
     margin-left: 0;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     border-radius: 100%;
     
+}
+
+.slider:hover{
+    border: 2px solid #FFFFFF;
 }
 
 .circle{

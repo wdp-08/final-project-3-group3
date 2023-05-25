@@ -25,9 +25,9 @@
                     </div>
                     <div class="bg-gradient-purple w-100 py-1"></div>
                 </a>
-                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas"
+                <button class="navbar-toggler ms-auto border border-0" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon "></span>
                 </button>
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
@@ -96,7 +96,7 @@
                 <span class="line"></span>
                 <div class="mt-4 d-lg-flex d-block container">
                     <div class="col">
-                        <div class="card border border-0 me-3 mb-5"
+                        <div class="card border border-0 me-md-3 mb-5 rounded-0"
                             style="background-color: #FDF8E3; height: fit-content;">
                             <div class="d-flex justify-content-center">
                                 <img src="/assets/images/app.png" class="" alt="..." width="70%">
@@ -110,7 +110,7 @@
                     </div>
 
                     <div class="col">
-                        <div class="card border border-0 me-3 mb-5"
+                        <div class="card border border-0 me-md-3 mb-5 rounded-0"
                             style="background-color: #F0F3FA; height: fit-content;">
                             <div class="d-flex justify-content-center">
                                 <img src="/assets/images/Bitmap (1).png" class="" alt="..." width="71.5%">
@@ -124,7 +124,7 @@
                     </div>
 
                     <div class="col">
-                        <div class="card border border-0 me-3 mb-5"
+                        <div class="card border border-0 me-md-3 mb-5 rounded-0"
                             style="background-color: #FEEFF0; height: fit-content;">
                             <div class="d-flex justify-content-center">
                                 <img src="/assets/images/Bitmap (2).png" class="" alt="..." width="74%">
@@ -187,7 +187,7 @@
                 </div>
                 <div class="row py-5">
                     <div class="col-lg-6 ">
-                        <div class="card bg-pink pt-5">
+                        <div class="card bg-pink rounded-0 pt-5">
                             <img class="align-self-center" width="100%" src="assets/images/laptop.svg" alt="">
                         </div>
                     </div>
@@ -210,7 +210,7 @@
                             ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                     <div class="col-lg-6 order-0 order-lg-1">
-                        <div class="card bg-biru py-5">
+                        <div class="card bg-biru rounded-0 py-5">
                             <img class="" src="assets/images/laptop-tablet-hp.svg" alt="">
                         </div>
                     </div>
@@ -233,29 +233,29 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <h3>Questions, Comments, Concerns?</h3>
-                        <h1 class="text-2xl">We'd love to <span>hear</span> from you!</h1>
+                        <h1 class="text-2xl">We’d love to <span>hear</span> from you!</h1>
                     </div>
 
                     <div class="col-lg-6">
                         <form class="form-contact">
                             <div class="mb-3">
                                 <label for="email" class="label-contact">Your Email Address</label>
-                                <input type="email" class="form-control form-control-lg rounded-0"
+                                <input type="email" id="email" class="form-control form-control-lg rounded-0"
                                     placeholder="something@website.com" required>
                             </div>
-                            <br>
+                            
                             <div class="mb-3">
-                                <label for="subject" style="font-weight: bold;" class="label-contact">Subject</label>
-                                <input type="text" class="form-control form-control-lg rounded-0"
+                                <label for="subject" class="label-contact fw-bold">Subject</label>
+                                <input type="text" id="subject" class="form-control form-control-lg rounded-0"
                                     placeholder="Question about your article" required>
                             </div>
-                            <br>
+                            
                             <div class="mb-3">
                                 <label for="message" class="label-contact">Message</label>
                                 <textarea class="form-control form-control-lg rounded-0" rows="5" style="resize: none"
-                                    placeholder="Your message starts with..." required></textarea>
+                                    placeholder="Your message starts with..." id="message" required></textarea>
                             </div>
-                            <br>
+                            
                             <div>
                                 <button type="submit" class="btn rounded-0 bg-gradient-purple-contact w-100">Send a
                                     Message</button>
